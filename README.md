@@ -1,4 +1,4 @@
-# 📋 CLI Task Manager (Go) - **Intermediate Level**
+# 📋 CLI Task Manager (Go)
 
 A modular task management CLI application with persistent storage supporting both CSV and JSON formats. Demonstrates repository pattern, interface design, and clean architecture principles in Go.
 
@@ -72,7 +72,6 @@ This project demonstrates:
 - **Data Persistence:** File-based storage with multiple formats
 - **CLI Development:** Command routing and argument processing
 
-**Difficulty:** ⭐⭐⭐ Intermediate - Architecture patterns and interface design
 
 ---
 
