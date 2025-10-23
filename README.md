@@ -1,6 +1,11 @@
-# 📋 CLI Task Manager (Go)
+# CLI Task Manager — Pluggable storage and clean CLI design
 
 A modular task management CLI application with persistent storage supporting both CSV and JSON formats. Demonstrates repository pattern, interface design, and clean architecture principles in Go.
+
+Quick links:
+- Entrypoint: `taskmanager.go`
+- Models: `model/`
+- Repos: `repository/`
 
 ---
 
@@ -47,7 +52,7 @@ cli-task-manager/
 
 ## 🛠️ Usage
 
-```sh
+```powershell
 # Add tasks
 go run taskmanager.go add "Update CV" 2025-09-30
 go run taskmanager.go add "Learn Go" 2025-08-15
@@ -72,7 +77,14 @@ This project demonstrates:
 - **Data Persistence:** File-based storage with multiple formats
 - **CLI Development:** Command routing and argument processing
 
+**Difficulty:** ⭐⭐⭐ Intermediate - Architecture patterns and interface design
 
 ---
+
+## Next steps (ideas)
+
+- Add SQLite backend implementing `TaskRepository`
+- Add tags/priority and filtering in list
+
 
 **Author:** IAmSotiris
