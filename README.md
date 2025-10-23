@@ -77,8 +77,6 @@ This project demonstrates:
 - **Data Persistence:** File-based storage with multiple formats
 - **CLI Development:** Command routing and argument processing
 
-**Difficulty:** ⭐⭐⭐ Intermediate - Architecture patterns and interface design
-
 ---
 
 ## Next steps (ideas)
@@ -88,3 +86,4 @@ This project demonstrates:
 
 
 **Author:** IAmSotiris
+
